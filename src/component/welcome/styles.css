@@ -1,0 +1,42 @@
+.welcomeContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F7FB;
+}
+
+.description{
+    margin-top: 100px;
+    margin-left: 70px;
+    width: 50%;
+    height: 400px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.image{
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    width: 700px;
+    
+}
+
+.image img{
+    transform: scaleX(-1);
+    width: 100%;
+}
+
+.wel{
+    color: #3083ff;
+    
+}
+
+.des{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: normal;
+    width: 80%;
+    line-height: 1.4;
+
+}
+
