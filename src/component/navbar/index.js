@@ -8,7 +8,10 @@ const Navbar = () => {
              <div>SAHAJ</div>
         </div>
         <div className='info'>
-            <div className='home'>Home</div>
+            <div className='home'>Home
+              
+            </div>
+
             <div className='home'>About</div>
             <div className='home'>Schedules</div>
             <div className='home'>Routes</div>
