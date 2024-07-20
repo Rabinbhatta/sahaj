@@ -3,6 +3,7 @@
     width: 100%;
     margin-top: 30px;
     justify-content: space-around;
+   
 }
 
 .mapImage{
@@ -17,8 +18,16 @@
     height: 100%;
 }
 
+.icon{
+    position: relative;
+    margin-top: 60px;
+    width: 600px;
+    left: 60px;
+}
+
 .icon1{
     display: flex;
+    margin: 0px 0px 60px 0px;
 }
 
 .iconImage{  
@@ -29,9 +38,40 @@
     background-color: red;
     justify-content: center;
     align-items: center;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+iconImage2{
+    margin-top: 30px;
 }
 
 .iconImage img{
+    border-radius: 50%;
     width: 60%;
     height: 60%;
+    
+}
+
+.iconDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.iconDetail1{
+    text-align: end;
+   
+}
+
+.iconHead{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px 20px 15px 0px;
+}
+
+.iconDetail{
+    font-size: 20px;
+    width: 400px;
 }

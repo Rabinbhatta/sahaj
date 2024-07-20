@@ -5,19 +5,19 @@
 }
 
 .description{
-    margin-top: 100px;
+    margin-top: 130px;
     margin-left: 70px;
     width: 50%;
-    height: 400px;
+    height: 500px;
     font-size: 50px;
     font-weight: bold;
 }
 
 .image{
     position: absolute;
-    top: 0px;
-    right: 100px;
-    width: 700px;
+    top: 30px;
+    right: 30px;
+    width: 800px;
     
 }
 
