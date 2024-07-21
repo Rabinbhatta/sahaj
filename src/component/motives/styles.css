@@ -1,0 +1,64 @@
+.motives-container {
+    background-color:white ;
+    border-radius: 10px;
+    overflow-y: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .motives-title {
+   background-color: #F6F7FB;
+    color: #007bff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin: -20px -20px 20px -20px;
+    border-radius: 10px 10px 0 0;
+    font-size: 55px;
+  }
+  
+  .motives-content {
+    width: 100%;
+  }
+  
+  .motive-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .motive-text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .motive-section h2 {
+    color: #007bff;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .motive-section p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .motive-image {
+    margin-top: 50px;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+
+  }
+
+  .motive-image img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+ 

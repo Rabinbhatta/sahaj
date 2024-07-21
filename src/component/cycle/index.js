@@ -1,6 +1,6 @@
 import React from 'react'
 import "./styles.css"
-import cycle from "../image/cycle.png"
+import cycle from "../image/e.png"
 
 const Cycle = () => {
   return (
@@ -9,11 +9,10 @@ const Cycle = () => {
            <img src={cycle} />
         </div>
         <div className='cycleDescription'>
-               <div className='cycleHead'>How to use</div>
-               <div className='cycleHead1'>Cycle Inside Ringroad?</div>
-               <div className='cycleContain'>Discover the convenience of planning your travels with ease using our comprehensive bus schedule platform. Whether you're commuting daily, exploring a new city, or embarking on a cross-country adventure, we've got you covered with up-to-date schedules, routes, and essential information to make your journey seamless.</div>
+               <div className='cycleHead'>How Sahaj is</div>
+               <div className='cycleHead1'>Innovating transportation ?</div>
+               <div className='cycleContain'>Sahaj is revolutionizing transportation in Nepal by providing a smart card payment system that ensures secure, hassle-free, and easily accessible transactions. Our innovative approach enhances the safety and convenience of public transport, making it more sustainable and efficient for all users. Join us in making Nepal's transportation system smarter and more reliable.</div>
         </div> 
-
     </div>
   )
 }

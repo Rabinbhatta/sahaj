@@ -3,7 +3,7 @@
     margin: 0px;
     background-color: #F6F7FB;
     width: 100%;
-    height: 80px;
+    height: 50px;
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px 10px 70px;
@@ -25,22 +25,21 @@
     margin-right: 200px;
     font-weight: bold;
     overflow: hidden;
+    
 }
 
 .home{
-    display: block;
-   width: 100px;
+   display: block;
+   width: 105px;
    height: 40px;
    text-align: center;
+   border: none;
+   font-size: 20px;
+   background-color: #F6F7FB;
 }
 
-.underline {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px; 
-    background-color: black; 
-    transition: width 0.3s ease;
+.home:hover{
+    cursor: pointer;
+    border-bottom: 3px solid  black; 
 }
+

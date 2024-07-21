@@ -1,0 +1,27 @@
+.chatbot{
+    position: fixed;
+    z-index: 6;
+    font-size: 50px;
+    right: 10px;
+    bottom: 60px;
+    color: #3083ff;
+    
+}
+
+.chatbot:hover{
+     cursor: pointer;
+}
+
+.close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 25px;
+   border-radius: 3px;
+    border: none;
+    
+}
+
+.close{
+    cursor: pointer;
+}

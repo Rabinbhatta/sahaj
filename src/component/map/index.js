@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import map from  "../image/map.jpg"
 import a from  "../image/a.png"
-import b from  "../image/b.png"
 import c from "../image/c.png"
 import d from  "../image/d.png"
 import "./styles.css"
+import { FaMagnifyingGlassPlus } from "react-icons/fa6";
 
 const Map = () => {
+  const [moveIn,setMoveIn] = useState(true)
+  const handleClick = (status)=>{
+        if(status == "false"){
+             setMoveIn(false)
+        }
+  }
   return (
     <div className='mapContainer'>
       <div className='icon'>
@@ -42,10 +48,19 @@ const Map = () => {
         </div>
              
         </div>
-      <div className='mapImage'>
-        <div> <img src={map}/></div>
-      
+      <div className="mapImage">
+        <h1>Routes</h1>
+      <div><img src={map}/></div>
       </div>
+        {!moveIn && <div className='mapimage'>
+        <div>
+          <img src={map}/>
+          </div>
+
+        </div>}
+        
+      
+      
       
     </div>
   )
